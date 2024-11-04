@@ -1,0 +1,16 @@
+[project]
+name = "semantic-scholar-easy-api"
+version = "0.0.0-dev"
+description = "Setup you semantic scholar API to work effortlessly with ChatGPT."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.4",
+    "toml>=0.10.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pre-commit>=4.0.1",
+    "pytest>=8.3.3",
+]
